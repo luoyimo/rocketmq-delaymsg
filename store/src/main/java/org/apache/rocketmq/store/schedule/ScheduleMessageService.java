@@ -236,6 +236,7 @@ public class ScheduleMessageService extends ConfigManager {
                 this.nextQueueId = -1;
                 this.nextPosition = 0;
             }
+
             if ((nowQueueId + 1) * 1000 * this.defaultMessageStore
                     .getMessageStoreConfig().getDelayLogInterval() - currentExecuteTime <=
                     this.defaultMessageStore.getMessageStoreConfig().getDelayLogInterval() / 5 * 1000

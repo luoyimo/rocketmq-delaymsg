@@ -295,7 +295,7 @@ public class BrokerConfig {
     }
 
     public String getRocketmqHome() {
-        return "D:\\Users\\qihu\\IdeaProjects\\rocketmq-delaymsg\\distribution";
+        return rocketmqHome;
     }
 
     public void setRocketmqHome(String rocketmqHome) {
